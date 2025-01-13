@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "informations":["Aaj ka gyan", "Roj ka gyan"],
+        "topic":"tech",
+        "images":["earth.webp"]
+    },
+    {
+        "id":2,
+        "informations":["Daily ka gyan", "Kabhi ka gyan"],
+        "topic":"tech",
+        "images":["earth.webp"]
+    },
+    {
+        "id":3,
+        "informations":["Hmesha ka gyan", "abhi ka gyan"],
+        "topic":"tech",
+        "images":["earth.webp"]
+    },
+    {
+        "id":4,
+        "informations":["aao  ka gyan", "jaap ka gyan"],
+        "topic":"tech",
+        "images":["earth.webp"]
+    },
+    {
+        "id":5,
+        "informations":["Aaj ka gyan", "Roj ka gyan"],
+        "topic":"tech",
+        "images":["earth.webp"]
+    }
+]

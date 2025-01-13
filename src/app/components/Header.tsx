@@ -46,6 +46,15 @@ const Header = () => {
   const handleTech = () => {
     router.push('/tech');
   };
+  const handleAadhyatmik = () => {
+    router.push('/aadhyatmik');
+  };
+  const handleSwadesh = () => {
+    router.push('/swadesh');
+  };
+  const handleVidesh = () => {
+    router.push('/videsh');
+  };
 
   const searchProducts = () => {
     console.log('Searched');
@@ -75,6 +84,7 @@ const Header = () => {
           {/* Spiritual Dropdown */}
           <li 
             className="p-4 md:p-0 md:mx-2 hover:text-gray-300 relative"
+            onClick={() => handleAadhyatmik()}
           >
             <span className="cursor-pointer">Aadhyatmik</span>
           </li>
@@ -82,12 +92,14 @@ const Header = () => {
           {/* Swadesh Dropdown */}
           <li 
             className="p-4 md:p-0 md:mx-2 hover:text-gray-300 relative"
+            onClick={() => handleSwadesh()}
           >
             <span className="cursor-pointer">Swadesh</span>
           </li>
           {/* Videsh Dropdown */}
           <li
             className="p-4 md:p-0 md:mx-2 hover:text-gray-300 relative"
+            onClick={() => handleVidesh()}
           >
             <span className="cursor-pointer">Videsh</span>
           </li>

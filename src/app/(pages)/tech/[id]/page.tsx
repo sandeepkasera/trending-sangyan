@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import { useParams } from "next/navigation"; // Use 'next/navigation' to get route params in app directory
 import techgyan from "@/app/assets/data/techgyan.json"
